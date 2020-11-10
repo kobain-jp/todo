@@ -139,11 +139,13 @@ F12を開く
 
 btnNewTodo.と打ち込んでbtnNewTodoがもっているプロパティやメソッドを読んでみよう
 
+btnNewTodo.disabled = true;を実行してみよう
+
 2. alertで今inputに入力している値を表示させよう inpNewTodoTitle
 
 何かを入力して、inpNewTodoTitle.valueを表示させてみよう
 
-alert(inpNewTodoTitle.value);と打ち込んでみよう
+alert(inpNewTodoTitle.value);を実行してみよう
 
 
 今日はここまで
