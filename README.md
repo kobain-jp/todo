@@ -159,7 +159,7 @@ mouseoverとかmouseoutとかはヒントの実装とか使えそうですよね
 https://developer.mozilla.org/ja/docs/Web/Events
 
 function (e)のeって何？addEventListenerに紐づけたメソッドの引数にするとeにeventオブジェクトが渡されます。
-詳しくは次の章で試しましょう。
+詳しくは次の章の4でデバッグしてみましょう。
 
 ### DeveloperTool＞Consoleから色々いじってみよう
 
