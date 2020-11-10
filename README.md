@@ -69,7 +69,7 @@ todomvc/index.html
 
 ### inputタグにid:inp-newtodo-titleを付与して、jsのdocument.getElementById('inp-newtodo-title')で操作しよう
 
-読み込んだら、inputが選択されている状態を作ろう
+読み込んだら、inputがカーソルが選択されている状態を作ろう
 
 todomvc/index.html
 
