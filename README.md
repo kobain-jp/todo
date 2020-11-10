@@ -22,6 +22,8 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 -> ブラウザが立ち上がり、タブ名にDocumtと表示される。中身は空っぽ
 
+＊ちなみにLive Serverはh保存するたびにリロードされるので、今後は再起動なしでOK　便利
+
 なんでDocumentってでるの？<head>タグないの<title>に記載してあるから
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/title
 
