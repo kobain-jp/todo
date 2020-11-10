@@ -144,16 +144,22 @@ https://developer.mozilla.org/ja/docs/Web/API/Window/alert
 windowって何？
 https://developer.mozilla.org/ja/docs/Web/API/Window
 
-他のevent.typeも追加して遊んでみよう
+他のevent.typeも追加して、F12を開いて動きをみてみよう
 
 ```
 
-btnNewTodo.addEventListener('focus', function () { console.log('button forcused') });
-btnNewTodo.addEventListener('mouseover', function () { console.log('button mouse over') });
-btnNewTodo.addEventListener('mouseout', function () { console.log('button mouseout') });
+btnNewTodo.addEventListener('mouseover', function () { console.log('mouseover') });
+btnNewTodo.addEventListener('mouseout', function () { console.log('mouseout') });
+btnNewTodo.addEventListener('focus', function (e) { console.log(e.type) });
+btnNewTodo.addEventListener('blur', function (e) { console.log(e.type) });
 
 ```
 
+mouseoverとかmouseoutとかはヒントの実装とか使えそうですよね。focusとblurはなんかで使うかな。。。
+https://developer.mozilla.org/ja/docs/Web/Events
+
+function (e)のeって何？addEventListenerに紐づけたメソッドの引数にするとeにeventオブジェクトが渡されます。
+詳しくは次の章で試しましょう。
 
 ### DeveloperTool＞Consoleから色々いじってみよう
 
