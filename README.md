@@ -98,6 +98,9 @@ console.log('hello world');
 constとは？ 再代入できない変数名
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/const
 
+他にlet varもあるけどその話は追々
+https://techacademy.jp/magazine/14872
+
 
 focusとは？ elementにフォーカスさせる
 https://developer.mozilla.org/ja/docs/Web/API/HTMLOrForeignElement/focus
@@ -141,6 +144,16 @@ https://developer.mozilla.org/ja/docs/Web/API/Window/alert
 windowって何？
 https://developer.mozilla.org/ja/docs/Web/API/Window
 
+他のevent.typeも追加して遊んでみよう
+
+```
+
+btnNewTodo.addEventListener('focus', function () { console.log('button forcused') });
+btnNewTodo.addEventListener('mouseover', function () { console.log('button mouse over') });
+btnNewTodo.addEventListener('mouseout', function () { console.log('button mouseout') });
+
+```
+
 
 ### DeveloperTool＞Consoleから色々いじってみよう
 
@@ -162,7 +175,7 @@ alert(inpNewTodoTitle.value);を実行してみよう
 
 window.onNewTodoBtnClicked  でてくる　functionと定義するとwinwosのプロパティになる
 
-window.inpNewTodoTitle 　でてこない constはwindowオブジェクトのプロパティにならない
+window.inpNewTodoTitle 　でてこない const/letはwindowオブジェクトのプロパティにならない
 
 
 とか定義した関数や、定義した変数がでてきますね。。
