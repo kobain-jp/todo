@@ -73,6 +73,10 @@ todo-day1/index.html
 
 リロードして、F12でデベロッパーツールをひらき、consoleタブを開いて、helloworldとでていれば成功！
 
+あれ、`<script type="text/javascript" src="app.js"></script>`みたいにtype書かなくていいの？と思った方はhtml5からはtypeの初期値がtext/javascriptなので、記載不要です。
+ちなみにindex.htmlの最初の行の`<!DOCTYPE html>`の記載でhtml5としてブラウザが解釈して動きます。
+
+
 ### inputタグにid:inp-newtodo-titleを付与して、jsのdocument.getElementById('inp-newtodo-title')で操作しよう
 
 読み込んだら、inputがカーソルが選択されている状態を作ろう
