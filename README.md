@@ -119,8 +119,8 @@ todomvc/app.js
 const btnNewTodo = document.getElementById('btn-newtodo');
 
 // clickが呼ばれたときに呼ばれるメソッドを定義
-function onNewTodoBtnClicked() {
-    console.log('button clicked');
+function onNewTodoBtnClicked(e) {
+    window.alert('button clicked');
 }
 
 // clickに追加
@@ -130,6 +130,13 @@ btnNewTodo.addEventListener('click', onNewTodoBtnClicked);
 https://developer.mozilla.org/ja/docs/Web/API/EventTarget/addEventListener
 
 buttonを押して、button clickedと表示されればOK
+
+alertって何？
+https://developer.mozilla.org/ja/docs/Web/API/Window/alert
+
+windowって何？
+https://developer.mozilla.org/ja/docs/Web/API/Window
+
 
 ### DeveloperTool＞Consoleから色々いじってみよう
 
@@ -147,9 +154,27 @@ btnNewTodo.disabled = true;を実行してみよう
 
 alert(inpNewTodoTitle.value);を実行してみよう
 
+3. onNewTodoBtnClicked(e)のeってなんだ？以下に変更して、consoleで見てみよう
+
+```
+
+function onNewTodoBtnClicked(e) {
+    alert('button clicked');
+    console.log(e.type)
+    console.log(e.target)
+}
+```
+
+4. consoleでwindow.と打ってみよう
+
+window.onNewTodoBtnClicked
+window.inpNewTodoTitle 
+
+とか定義した関数や、定義した変数がでてきますね。。
+
 
 今日はここまで
-
+https://developer.mozilla.org/ja/docs/Web/API/Event
 
 
 
