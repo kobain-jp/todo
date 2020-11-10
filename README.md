@@ -24,7 +24,7 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 ＊ちなみにLive Serverはh保存するたびにリロードされるので、今後は再起動なしでOK　便利
 
-なんでDocumentってでるの？<head>タグないの<title>に記載してあるから
+なんでDocumentってでるの？`<head>`タグないの`<title>`に記載してあるから
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/title
  
 5. titleタグの中身を買い換えて、タブ名をtodo listに変更しよう
@@ -34,7 +34,7 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Element/title
  +<title>todo list</title>
 ```
 
-なんでブラウザの表示は何もでないの？<body>タグ内に何もないから
+なんでブラウザの表示は何もでないの？ `<body>`タグ内に何もないから
 
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/body
 
