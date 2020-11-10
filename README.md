@@ -1,4 +1,4 @@
-# todomvc
+# todo-day1
 
 ### setup 
 
@@ -8,13 +8,13 @@ https://code.visualstudio.com/download
 vscodeプラグインのインストール
 https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
-任意のパスにソースコードを入れるフォルダを作成 ex todomvc
+任意のパスにソースコードを入れるフォルダを作成 ex todo-day1
 
 ### indexページを作ってページのタブに表示される情報を変更しよう
 
-1. vscodeを起動し、Openから作成したフォルダex todomvcを開く
+1. vscodeを起動し、Openから作成したフォルダex todo-day1を開く
 
-2. 新規ファイル追加アイコンをクリック、index.htmlという名前でファイルを作成 ex todomvc/index.html
+2. 新規ファイル追加アイコンをクリック、index.htmlという名前でファイルを作成 ex todo-day1/index.html
 
 3. htmlと打つと html 5とでるので選択するとhtmlの雛形が自動保管！！スゴイ！！
 
@@ -50,7 +50,7 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Element/title
 
 ### js ファイルを追加して、読み込もう
  
-1. 同じ階層にapp.jsファイルを作成し、１行 `console.log('hello world');`と記載する ex todomvc/app.js
+1. 同じ階層にapp.jsファイルを作成し、１行 `console.log('hello world');`と記載する ex todo-day1/app.js
 
 app.js
 ```
@@ -59,7 +59,7 @@ console.log('hello world');
 
 2. index.htmlのbodyタグの最後にjsを読み込むscriptタグを追加。scriptと打って、script:srcを選択し、srcにファイルのパスを記載
 
-todomvc/index.html
+todo-day1/index.html
 ```
     <input type="text" name="" id="">
     <input type="button" value="add">
@@ -73,14 +73,14 @@ todomvc/index.html
 
 読み込んだら、inputがカーソルが選択されている状態を作ろう
 
-todomvc/index.html
+todo-day1/index.html
 
 ```
 -    <input type="text" name="" id="">
 +    <input type="text" name="" id="inp-newtodo-title">
 ```
 
-todomvc/app.js
+todo-day1/app.js
 
 ```
 
@@ -102,7 +102,7 @@ https://developer.mozilla.org/ja/docs/Web/API/HTMLOrForeignElement/focus
 
 document.getElementByIdで操作するために、idをふろう
 
-todomvc/index.html
+todo-day1/index.html
 
 ```
 -    <input type="button" value="add" >
@@ -111,7 +111,7 @@ todomvc/index.html
 
 document.getElementById取得したボタンオブジェクトのaddEventListnerメソッドでクリックされた時の挙動を追加しよう
 
-todomvc/app.js
+todo-day1/app.js
 
 ```
 
