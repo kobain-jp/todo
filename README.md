@@ -12,7 +12,7 @@ https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 ### indexページを作ってページのタブに表示される情報を変更しよう
 
-1. vscodeを起動し、Openから作成したフォルダを開く
+1. vscodeを起動し、Openから作成したフォルダex todomvcを開く
 
 2. 新規ファイル追加アイコンをクリック、index.htmlという名前でファイルを作成 ex todomvc/index.html
 
