@@ -160,8 +160,10 @@ alert(inpNewTodoTitle.value);を実行してみよう
 
 3. consoleでwindow.と打ってみよう
 
-window.onNewTodoBtnClicked
-window.inpNewTodoTitle 
+window.onNewTodoBtnClicked  でてくる　functionと定義するとwinwosのプロパティになる
+
+window.inpNewTodoTitle 　でてこない constはwindowオブジェクトのプロパティにならない
+
 
 とか定義した関数や、定義した変数がでてきますね。。
 
