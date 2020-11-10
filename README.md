@@ -169,24 +169,17 @@ function (e)のeって何？addEventListenerに紐づけたメソッドの引数
 
 F12を開く
 
-1. ボタンをdisabledにしてみよう
+1. alertで今inputに入力している値を表示させよう inpNewTodoTitle
 
-btnNewTodo.と打ち込んでbtnNewTodoがもっているプロパティやメソッドを読んでみよう
+何かを入力して、consoleでinpNewTodoTitle.valueを実行してみよう
 
-btnNewTodo.disabled = true;を実行してみよう
-
-2. alertで今inputに入力している値を表示させよう inpNewTodoTitle
-
-何かを入力して、inpNewTodoTitle.valueを表示させてみよう
-
-alert(inpNewTodoTitle.value);を実行してみよう
+window.alert(inpNewTodoTitle.value);を実行してみよう
 
 3. consoleでwindow.と打ってみよう
 
-window.onNewTodoBtnClicked  でてくる　functionと定義するとwinwosのプロパティになる
+window.onNewTodoBtnClicked  でてくる ->　function XXXX(){}と定義するとwindowのプロパティになる
 
-window.inpNewTodoTitle 　でてこない const/letはwindowオブジェクトのプロパティにならない
-
+window.inpNewTodoTitle 　でてこない -> const/letはwindowオブジェクトのプロパティにならない
 
 とか定義した関数や、定義した変数がでてきますね。。
 
@@ -200,8 +193,18 @@ function onNewTodoBtnClicked(e) {
 }
 ```
 
+### その他のタグに関して
 
-https://developer.mozilla.org/ja/docs/Web/API/Event
+```
+<!DOCTYPE html>  // HTML5で解釈してねというブラウザへのお願い
+<html lang="en"> // ここの値を見て、Googleが自動翻訳やるよってつもりだったが、使われてない。
+https://seopack.jp/seoblog/20161111-use-hreflang/
+  <meta charset="UTF-8">　// UTF-8の文字コードで解釈してねというブラウザへのお願い
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">　// この値(Google推奨らしい)以外で使わない、マルチデバイス対応のレスポンシブデザインを実装するためのおまじないぐらいの理解。。。詳しくは以下で
+https://tree-file.com/web-design/understanding-viewport-for-responsive-webdesign/
+
+
+```
 
 今日はここまで
 
