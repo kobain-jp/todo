@@ -135,7 +135,7 @@ https://developer.mozilla.org/ja/docs/Web/API/EventTarget/addEventListener
 
 buttonを押して、button clickedと表示されればOK
 
-alertって何？
+window.alertって何？
 https://developer.mozilla.org/ja/docs/Web/API/Window/alert
 
 windowって何？
