@@ -197,9 +197,9 @@ function onNewTodoBtnClicked(e) {
 
 ```
 <!DOCTYPE html>  // HTML5で解釈してねというブラウザへのお願い
-<html lang="en"> // ここの値を見て、Googleが自動翻訳やるよってつもりだったが、使われてない。
+<html lang="en"> // ここの値を見て、Googleが自動翻訳やるよってつもりだったが、2020年現在使われてないらしい。。
 https://seopack.jp/seoblog/20161111-use-hreflang/
-  <meta charset="UTF-8">　// UTF-8の文字コードで解釈してねというブラウザへのお願い
+  <meta charset="UTF-8">　// UTF-8の文字コードで解釈してねというブラウザへのお願い　UTF-8ってなに？って人はググってみましょう
   <meta name="viewport" content="width=device-width, initial-scale=1.0">　// この値(Google推奨らしい)以外で使わない、マルチデバイス対応のレスポンシブデザインを実装するためのおまじないぐらいの理解。。。詳しくは以下で
 https://tree-file.com/web-design/understanding-viewport-for-responsive-webdesign/
 
